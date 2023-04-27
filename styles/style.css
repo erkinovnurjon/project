@@ -1,0 +1,238 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 16px 0;
+    box-sizing: border-box;
+}
+.projects{
+    margin: 0 auto;
+    padding: 0 16px;
+}
+.project__top h1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 70px;
+line-height: 105px;
+/* identical to box height */
+
+text-align: center;
+
+color: #1C2323;
+}
+.project__top p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 45px;
+/* identical to box height */
+
+text-align: center;
+
+color: #404242;
+margin-bottom: 50px;
+}
+.project__bottom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.project__box{
+    padding-left: 50px;
+}
+.project__box h1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 60px;
+/* identical to box height */
+
+
+color: #58A9A5;
+
+}
+.project__box p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+
+color: #486958;
+}
+.project__box img{
+    width: 400px;
+    height: 400px;
+    margin-top: 50px;
+
+}
+/* testimonails */
+.test__top h1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 70px;
+line-height: 105px;
+/* identical to box height */
+
+text-align: center;
+
+color: #1C2323;
+}
+.test__center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.test__center img{
+    margin: 0 15px;
+}
+.test__bottom{
+    width: 100%;
+    height: 460px;
+    background-color: #CCF0E6;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom__left{
+    background-image: url(../images/Rectangle\ 18.svg);
+    width: 400px;
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.bottom__right{
+    width: 60%;
+}
+.right__top{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.right__top h1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 45px;
+
+color: #58A9A5;
+padding-left: 20px;
+
+}
+.right__bottom p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 38px;
+
+color: #486958;
+}
+.right__bottom span{
+    color: #58A9A5;
+
+}
+/* Contact styles */
+.contact{
+    display: flex;
+    /* justify-content: space-between; */
+    width: 100%;
+    height: 300px;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.contact__left{
+    width: 40%;
+    
+
+}
+.contact__right{
+    width: 60%;
+    border: 1px solid #58A9A5;
+    border-radius: 5px;
+}
+.contact__left h1{
+    font-family: 'Roboto' , sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 55px;
+line-height: 105px;
+/* identical to box height */
+padding-left: 30px;
+
+color: #1C2323;
+}
+.contact__left p{
+    
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 38px;
+
+color: #486958;
+padding-left: 30px;
+}
+.line{
+    width: 150px;
+    height: 6px;
+    background-color: #486958;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    
+}
+.line1{
+    width: 150px;
+    height: 6px;
+    background-color: #486958;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+}
+.argument{
+    padding: 35px;
+}
+.contact__right h1{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 38px;
+/* identical to box height */
+
+
+color: #486958;
+}
+.contact__right button{
+    background: #58A9A5;
+border-radius: 20px 20px 20px 0px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 38px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+border: none;
+padding: 8px 40px;
+margin-left: 400px;
+}
+.contact__right button:hover{
+    background-color: #9cb5a8;
+    color: #fff;
+    transition: all 1s ease;
+}
