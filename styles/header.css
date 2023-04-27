@@ -1,0 +1,135 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__left{
+    display: flex;
+    align-items: center;
+}
+.nav__left h1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 35px;
+line-height: 52px;
+/* identical to box height */
+
+
+color: #58A9A5;
+padding-top: 20px;
+padding-left: 15px;
+}
+.nav__left img{
+    width: 37px;
+    height: 45px;
+}
+/* .nav__center{
+    position: relative;
+} */
+.nav__center ul{
+    display: flex;
+    list-style: none;
+
+}
+.nav__center ul li a{
+    text-decoration: none;
+    padding-left: 20px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 38px;
+/* identical to box height */
+
+
+color: #404242;
+}
+li{
+    position: relative;
+}
+.nav__center li:hover:after{
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color: limegreen;
+    color: limegreen;
+    position: absolute;
+    top: 40px;
+    left: 23px;
+}
+
+.nav__right button{
+    background: #58A9A5;
+border-radius: 8px;
+width: 171px;
+height: 50px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 38px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+border: none;
+}
+.nav__right button:hover{
+    background-color: #4d8d89;
+    transition: all 1s ease;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 200px;
+    margin-top: 30px;
+}
+.main__right{
+    background-image: url(../images/header-images/Rectangle\ 9.svg);
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 500px;
+    background-size: contain;
+    position: absolute;
+    left: 640px;
+}
+.main__right img{
+    width: 500px;
+    height: 500px;
+}
+.main__left h1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 60px;
+line-height: 55px;
+
+color: #1C2323;
+}
+.main__left p{
+    
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 45px;
+
+color: #404242;
+}
+.main__left button{
+    background: #58A9A5;
+border-radius: 20px 20px 20px ;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 38px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+width: 170px;
+height: 50px;
+}
